@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        &:has(.kwaici-container) {
+            @apply bg-slate-200;
+        }
+    }
+}
+
+@import './includes/kwaici';
